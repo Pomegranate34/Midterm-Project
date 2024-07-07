@@ -1,0 +1,102 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+/* HEADER */
+
+.header {
+    display: flex;
+    align-items: center;
+    padding: 2em;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+h1 {
+    font-size: 3rem;
+}
+
+.intro {
+   height: 800px;
+   width: 640px;
+   margin: 2em;
+}
+
+body {
+    background-color: #A0CA96;
+    font-family: Varela Round;
+}
+
+button {
+    background-color: darkgreen;
+    color: #ffffff;
+    padding-left: 1.5em;
+    padding-right: 1.5em;
+    padding-top: 0.75em;
+    padding-bottom: 0.75em;
+    border: none;
+    border-radius: 4px;
+}
+
+button:hover {
+    cursor: pointer;
+    background-color: rgb(0, 55, 0);
+}
+
+
+/* AVIAN CELEBRATION */
+
+.section1 {
+    background-color: #CA96A7;
+    padding: 2em;
+}
+
+
+/* EVENT HIGHLIGHTS */
+
+.section2 {
+    background-color: #EBE7B2;
+    padding: 2em;
+}
+
+.caption {
+    padding-top: 1em;
+    padding-left: 1em;
+}
+
+.row {
+    display: flex;
+    margin: auto;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: space-between;
+}
+
+.event {
+    height: 400px;
+    width: auto;
+    padding: 2em;
+}
+
+/* STAY CONNECTED */
+
+.section3 {
+    background-color: #CA96A7;
+    padding: 2em;
+}
+
+
+footer {
+    background-color: black;
+    color: white;
+    padding: 1%;
+    text-align: center;
+}
+
+p {
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
+}
